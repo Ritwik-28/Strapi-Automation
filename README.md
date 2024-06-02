@@ -1,4 +1,3 @@
-
 <h1 align="center">Strapi Data Upload Script</h1>
 
 <p align="justified">This script uploads data from a Google Sheet to Strapi. The script includes functionality for handling image uploads from Google Drive and various conditional data fields. Below are the details for the setup, Google Sheet structure, and how the script works.</p>
