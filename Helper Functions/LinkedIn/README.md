@@ -1,5 +1,4 @@
-
-<h1 align="center">LinkedIn Profile Picture Downloader</h>
+<h1 align="center">LinkedIn Profile Picture Downloader</h1>
 
 <p align="justified">This script automates the process of downloading LinkedIn profile pictures, converting them to WebP format, and uploading them to Google Drive. It also updates the status in a Google Sheet.</p>
 
