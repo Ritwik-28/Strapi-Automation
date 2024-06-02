@@ -55,7 +55,7 @@
 | ID (Strapi Entry ID)           | 30    | Number    | Strapi Entry ID of the uploaded data             |
 | Upload Status                  | 31    | String    | Status of the upload (e.g., Done)                |
 
-* Note this is for the json payload mentioned in the [strapi-automation.js](strapi-automation.js) file.
+* Note this is for the json payload mentioned in the [strapi-automation.js](strapi-automation.js) file. Update this as per your strapi content payload.
 
 ## Script Functionality
 
