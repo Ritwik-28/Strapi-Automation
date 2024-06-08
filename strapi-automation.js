@@ -54,8 +54,8 @@ function uploadDataToStrapi() {
   for (var i = 2; i < data.length; i++) { // Start from 3rd row in the sheet (index 2)
     var row = data[i];
 
-    // Check if the row is marked as "Ready to Upload" (column AD, index 29)
-    if (row[29] !== 'Ready to Upload') {
+    // Check if the row is marked as "Ready to Upload" (column AD, index 29) and not marked as "Done" (column AF, index 31)
+    if (row[29] !== 'Ready to Upload' || row[31] === 'Done') {
       continue;
     }
 
